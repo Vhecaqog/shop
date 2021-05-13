@@ -1,0 +1,71 @@
+﻿$axure.loadCurrentPage({
+  "url":"退款-与家博会线上退款流程相同，通过查询线上订单号来退款.html",
+  "generationDate":new Date(1447681775926.98),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"7eadeaecddaf4d4a9a28a2fada9da8e7",
+    "type":"Axure:Page",
+    "name":"退款-与家博会线上退款流程相同，通过查询线上订单号来退款",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"5ae93e36e9c54b628aa2cfe40b0675cd",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":120,
+              "y":100},
+            "size":{
+              "width":440,
+              "height":48}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"62e25c63a09a44f4a279ea44fcc51740",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":120,
+                  "y":100},
+                "size":{
+                  "width":440,
+                  "height":48}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "5ae93e36e9c54b628aa2cfe40b0675cd":{
+      "scriptId":"u0"},
+    "62e25c63a09a44f4a279ea44fcc51740":{
+      "scriptId":"u1"}}});

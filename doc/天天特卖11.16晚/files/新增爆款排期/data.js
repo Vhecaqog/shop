@@ -1,0 +1,329 @@
+﻿$axure.loadCurrentPage({
+  "url":"新增爆款排期.html",
+  "generationDate":new Date(1447681774906.59),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"ca7d032e3aa3442d9bd7f6bb95b8b44c",
+    "type":"Axure:Page",
+    "name":"新增爆款排期",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"cc337ffeabef4292b884aa20b60d4285",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "fontSize":"12px",
+            "location":{
+              "x":70,
+              "y":147},
+            "size":{
+              "width":49,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d0e8d44bcb8343b89c75412ef4a8e692",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"12px",
+                "location":{
+                  "x":70,
+                  "y":147},
+                "size":{
+                  "width":49,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"61a0ceabd7a349e9adac22016ae6ea8c",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "fontSize":"12px",
+            "location":{
+              "x":70,
+              "y":190},
+            "size":{
+              "width":49,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1b06a35caedf4bcba8774dbcf9db2e68",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"12px",
+                "location":{
+                  "x":70,
+                  "y":190},
+                "size":{
+                  "width":49,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a8300d9e2f5b4051aef9176cbe3db072",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":129,
+              "y":142},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"5b44cd5d05884514927c73643f327879",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":129,
+              "y":185},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"3591f4579c344b87b5b3b12dd02569ee",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":30,
+              "y":22},
+            "size":{
+              "width":145,
+              "height":28}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"66e71524c5c74509b9ffac75b37b056a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":30,
+                  "y":22},
+                "size":{
+                  "width":145,
+                  "height":28}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"752a95f9e44d48dcb31b8e378e602119",
+          "label":"",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":50},
+            "size":{
+              "width":940,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/创建店铺品类/u2_line.png"}},
+{
+          "id":"44dc6d3c94334a6c84f84546320f5579",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":70,
+              "y":230},
+            "size":{
+              "width":57,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 爆款商品排期管理",
+                      "target":{
+                        "targetType":"page",
+                        "url":"爆款商品排期管理.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"e1f843c044a74558a02857f44f19e27a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":70,
+              "y":265},
+            "size":{
+              "width":200,
+              "height":64}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"12f5873f4ef4410eb5176ec65ab44a3e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":70,
+                  "y":265},
+                "size":{
+                  "width":200,
+                  "height":64}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"af9de07d19c04901bdb9b6bf33ad86b0",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "fontSize":"12px",
+            "location":{
+              "x":70,
+              "y":105},
+            "size":{
+              "width":25,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"31062c48834140fcaa0b5808b29f64fd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"12px",
+                "location":{
+                  "x":70,
+                  "y":105},
+                "size":{
+                  "width":25,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"24ead6420218451a8b6da5da23992705",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":129,
+              "y":100},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "cc337ffeabef4292b884aa20b60d4285":{
+      "scriptId":"u0"},
+    "d0e8d44bcb8343b89c75412ef4a8e692":{
+      "scriptId":"u1"},
+    "61a0ceabd7a349e9adac22016ae6ea8c":{
+      "scriptId":"u2"},
+    "1b06a35caedf4bcba8774dbcf9db2e68":{
+      "scriptId":"u3"},
+    "a8300d9e2f5b4051aef9176cbe3db072":{
+      "scriptId":"u4"},
+    "5b44cd5d05884514927c73643f327879":{
+      "scriptId":"u5"},
+    "3591f4579c344b87b5b3b12dd02569ee":{
+      "scriptId":"u6"},
+    "66e71524c5c74509b9ffac75b37b056a":{
+      "scriptId":"u7"},
+    "752a95f9e44d48dcb31b8e378e602119":{
+      "scriptId":"u8"},
+    "44dc6d3c94334a6c84f84546320f5579":{
+      "scriptId":"u9"},
+    "e1f843c044a74558a02857f44f19e27a":{
+      "scriptId":"u10"},
+    "12f5873f4ef4410eb5176ec65ab44a3e":{
+      "scriptId":"u11"},
+    "af9de07d19c04901bdb9b6bf33ad86b0":{
+      "scriptId":"u12"},
+    "31062c48834140fcaa0b5808b29f64fd":{
+      "scriptId":"u13"},
+    "24ead6420218451a8b6da5da23992705":{
+      "scriptId":"u14"}}});
