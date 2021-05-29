@@ -1,0 +1,31 @@
+body{background: #f4f4f5;}
+/* 头部 */
+.g-hd{width: 100%;height: 120px;overflow: hidden;}
+.g-hd .u-logo{background: url(../img/logo.png?__inline);background: url(../img/logo.png);height: 37px;width: 222px;margin: 42px 0 17px 72px;}
+.g-hd .u-line{height: 4px;width: 100%;background: #ff4a00 url(../img/strip.png);}
+/* 主体 */
+.g-bd{overflow: hidden;}
+.g-bd .box{width: 710px;margin:auto;}
+.g-bd .box .qrcode{float: left;width: 250px;margin-top: 39px;}
+.g-bd .box .qrcode h1{text-align: center;font-size: 14px;color: #888;margin: 15px auto;letter-spacing: 1px;}
+.g-bd .box .qrcode .img{width:247px;height: 250px;background: #fff;display: block;}
+
+.g-bd .box .login{width: 322px;overflow: hidden;float: left;margin-left: 135px;}
+.g-bd .box .login h1{text-align: center;margin: 30px auto;font-size: 22px;color: #888;}
+.g-bd .box .login .ipt{width: 290px;height: 46px;border: 1px solid #a5a2a2;display: block;padding:0 15px;}
+.g-bd .box .login .ipt-tip{visibility: hidden; height: 16px;line-height: 16px;font-size: 12px;color: #e94d18;margin-left: 5px;}
+.g-bd .box .login .btn-login{width: 320px;text-align: center; height: 46px;line-height: 46px; 
+	background: #e94d18;color: #fff;font-size: 14px;border: 1px solid #e94d18;cursor: pointer;
+	transition:all 1s;-webkit-transition:all 1s;-ms-transition:all 1s;-o-transition:all 1s;-moz-transition:all 1s;}
+.g-bd .box .login .btn-login:hover{background: #ff6000;}
+.g-bd .box .login .is-auto-login{font-size: 12px;display: block;float: left;margin-top: 15px;color: #888;}
+.g-bd .box .login .is-auto-login input{display: block;float: left;margin:2px 2px 0 0;}
+.g-bd .box .login .btn-getback{float: right;color: #888;font-size: 12px;margin-top: 15px;}
+.g-bd .box .login .btn-regist{float: right;color: #e94d18;font-size: 12px;margin-top: 15px;margin-left: 15px;}
+.g-bd .box .login .third{margin-top: 60px;}
+.g-bd .box .login .third p{font-size: 12px;color: #888;float: left;height: 22px;line-height: 22px;}
+.g-bd .box .login .third .btn-wx-login{margin-left: 15px; float: left;width: 98px;height: 22px;background: url(../img/btn_weixin_login.png);}
+
+/*底部*/
+.g-ft{width: 100%;margin-top: 15px;}
+.g-ft .m-comment{height: 450px;background: #FFF;margin-bottom: 15px;}

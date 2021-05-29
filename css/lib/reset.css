@@ -1,0 +1,43 @@
+*{margin: 0;padding:0;}
+html{overflow-y: scroll;}
+body{background: #EBEAE6; font-family:'微软雅黑','microsoft yahei','新宋体','宋体',Tahoma,Verdana,Arial,Helvetica,sans-serif;-webkit-text-size-adjust:none;}
+li{list-style: none;}
+input{border: 0 none;outline: none;}
+a{text-decoration: none;color: #444;}
+p{color: #666;}
+img{border: 0 none;}
+h1{font-size: 15px;color: #444;font-weight: 100;}
+
+.clearfix{clear: both;}
+
+.gray{
+    transition:all 1s; -webkit-transition:all 1s; -moz-transition:all 1s; -ms-transition:all 1s; -o-transition:all 1s; 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.gray:hover{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+::selection{background:#FF4A00; color:#fff;} 
+::-moz-selection{background:#FF4A00; color:#fff;} 
+::-webkit-selection{background:#FF4A00; color:#fff;} 
+::-ms-selection{background:#FF4A00; color:#fff;} 
+
+::-webkit-scrollbar{background:#ccc;width: 8px;}
+::-webkit-scrollbar-thumb{background:#444; }
+::-moz-scrollbar{background:#ccc;width: 8px;}
+::-moz-scrollbar-thumb{background:#444; }
+::-ms-scrollbar{background:#ccc;width: 8px;}
+::-ms-scrollbar-thumb{background:#444; }
+
+
